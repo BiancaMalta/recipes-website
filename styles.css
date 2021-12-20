@@ -25,12 +25,36 @@ body {
     place-items: center;
 }
 
-h1,
-h2,
-{
+h1 {
+    font-size: 28px;
     color: #1B1B1B;
+}
+
+h2 {
+    font-size: 20px;
+    color: #1B1B1B;
+}
+
+h3 {
+    font-size: 20px;
+    color: #1B1B1B;
+}
+
+p,
+ul,
+ol {
+    font-size: 16px;
+    color: #39393A;
 }
 
 figcaption {
     color: #8F8F8F;
+    font-size: 12px;
+}
+
+table,
+ul,
+ol {
+    line-height: 26px;
+    list-style-position: inside;
 }
