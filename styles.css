@@ -1,60 +1,82 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box/center;
-    background-color: #FFFFFF;
-}
-
-html,
-body {
-    background-color: #EAEAEA;
-    font-family: 'Roboto', sans-serif;
-    -webkit-animation-smoothing: antialiased;
-}
-
-body {
-    display: grid;
-    place-items: center;
-}
-
-.container {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    display: grid;
-    place-items: center;
-}
-
-h1 {
-    font-size: 28px;
-    color: #1B1B1B;
-}
-
-h2 {
-    font-size: 20px;
-    color: #1B1B1B;
-}
-
-h3 {
-    font-size: 20px;
-    color: #1B1B1B;
-}
-
-p,
-ul,
-ol {
-    font-size: 16px;
-    color: #39393A;
-}
-
-figcaption {
-    color: #8F8F8F;
-    font-size: 12px;
-}
-
-table,
-ul,
-ol {
-    line-height: 26px;
-    list-style-position: inside;
-}
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box/center;
+                background-color: #FFFFFF;
+            }
+            
+            html,
+            body {
+                background-color: #a72d2d;
+                font-family: 'Roboto', sans-serif;
+            }
+            
+            main {
+                border-radius: 50px;
+                position: relative;
+                width: 80%;
+                min-height: 812px;
+                height: 80%;
+                margin: auto;
+                padding: 50px;
+                overflow: hidden;
+                margin-top: 2%;
+                margin-bottom: 2%;
+                justify-content: center;
+            }
+            
+            body {
+                place-items: center;
+                display: block;
+            }
+            
+            h1 {
+                font-size: 28px;
+                color: #1B1B1B;
+                text-align: center;
+            }
+            
+            h2 {
+                font-size: 20px;
+                color: #1B1B1B;
+                text-align: center;
+            }
+            
+            h3 {
+                font-size: 20px;
+                color: #1B1B1B;
+                text-align: center;
+            }
+            
+            .table1 {
+                place-items: center;
+                align-items: center;
+            }
+            
+            .table1,
+            ul,
+            ol,
+            tbody {
+                font-size: 16px;
+                color: #39393A;
+            }
+            
+            figcaption {
+                color: #8F8F8F;
+                font-size: 12px;
+            }
+            
+            table,
+            ul,
+            ol {
+                line-height: 26px;
+                list-style-position: inside;
+            }
+            
+            table {
+                place-items: center;
+            }
+            
+            footer {
+                position: static;
+            }
